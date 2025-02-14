@@ -2,8 +2,8 @@ import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
-TELEGRAM_BOT_TOKEN = '7254842021:AAEEvHd6cPB7o4HEOOkFlkXwkb5aPMIRVXM'
-ADMIN_USER_ID = 6320028017
+TELEGRAM_BOT_TOKEN = '6651821061:AAGotRWQyapc0qXi7lsIpVeuu_Uhwqd1PNI'
+ADMIN_USER_ID = 6524534204
 APPROVED_IDS_FILE = 'approved_ids.txt'
 attack_in_progress = False
 
@@ -25,9 +25,9 @@ approved_ids = load_approved_ids()
 async def start(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     message = (
-        "*𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐆𝐎𝐃x𝐂𝐇𝐄𝐀𝐓𝐒 𝐃𝐃𝐎𝐒  *\n"
+        "*𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 EQUACY-DEV 𝐃𝐃𝐎𝐒  *\n"
         "*PRIMIUM DDOS BOT*\n"
-        "*OWNER :- @GODxAloneBOY*\n"
+        "*OWNER :- @Rjeifn*\n"
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
